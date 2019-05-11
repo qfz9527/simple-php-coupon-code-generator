@@ -29,17 +29,17 @@ HTML, CSS, JS, PHP
 ## Usage
 ### SubStacks General Usage
 ```php
-$coupon_code_options = array(</code><br/>
-	    'prefix' => '',</code><br/>
-	    'suffix' => '',</code><br/>
-	    'length' => 10,</code><br/>
-	    'letters' => false,</code><br/>
-	    'numbers' => true</code><br/>
+$coupon_code_options = array(
+	    'prefix' => '',
+	    'suffix' => '',
+	    'length' => 10,
+	    'letters' => false,
+	    'numbers' => true
 );
 ```
 
 ```php
-$coupon_code = SubStacks\SMS_Marketing\Coupon::generate_coupons($coupon_code_options);
+$coupon_code = SubStacks\SMS_Marketing\Coupon::generate_coupons(1,$coupon_code_options);
 ```
 
 1) Dynamic length
