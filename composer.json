@@ -1,0 +1,17 @@
+{
+  "authors": [
+    {
+      "email": "qfz9527@qq.com",
+      "name": "liu guan",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "SubStacks\\SMS_Marketing\\Coupon\\": ""
+    }
+  },
+  "description": "Simple PHP coupon code generator to genrate N number of coupons.",
+  "license": "MIT",
+  "name": "qfz9527/simple-php-coupon-code-generator"
+}
